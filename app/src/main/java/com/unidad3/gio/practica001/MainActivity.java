@@ -17,7 +17,7 @@ EditText cuadro;
     public void obtener(View v){
        String palabra= String.valueOf(cuadro.getText());
        palabra=palabra.toUpperCase();
-        StringBuilder pala=new StringBuilder(palabra);
+         StringBuilder pala=new StringBuilder(palabra);
 
         pala.reverse();
 
